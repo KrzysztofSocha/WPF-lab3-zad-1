@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp_Lab3_cw_w61933.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Lab3_cw_w61933"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="bSuma" Content="Suma" HorizontalAlignment="Left" Margin="109,231,0,0" VerticalAlignment="Top" Height="24" Width="122" Click="button_Click"/>
+        <Button x:Name="bRoznica" Content="Różnica" HorizontalAlignment="Left" Margin="259,231,0,0" VerticalAlignment="Top" Height="24" Width="122" Click="bRoznica_Click"/>
+        <Button x:Name="bIloczyn" Content="Iloczyn" HorizontalAlignment="Left" Margin="416,231,0,0" VerticalAlignment="Top" Height="24" Width="122" Click="bIloczyn_Click"/>
+        <Button x:Name="bIloraz" Content="Iloraz" HorizontalAlignment="Left" Margin="570,231,0,0" VerticalAlignment="Top" Height="24" Width="122" Click="bIloraz_Click"/>
+        <Label x:Name="label" Content="Podaj X" HorizontalAlignment="Left" Margin="119,107,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label1" Content="Podaj Y" HorizontalAlignment="Left" Margin="119,163,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="tbX" HorizontalAlignment="Left" Margin="259,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="29" FontSize="14"/>
+        <TextBox x:Name="tbY" HorizontalAlignment="Left" Margin="259,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="26" FontSize="14"/>
+        <Label x:Name="lbWynik" Content="Wynik" HorizontalAlignment="Left" Margin="85,348,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="tbWynik" HorizontalAlignment="Left" Margin="164,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" FontSize="14" Height="35" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
